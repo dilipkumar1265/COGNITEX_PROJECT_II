@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>COGNITEX</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 720px;
+      background: #020617;
+      border-radius: 14px;
+      padding: 32px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 6px;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #94a3b8;
+      margin-bottom: 28px;
+      font-size: 14px;
+    }
+
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: #38bdf8;
+    }
+
+    .label {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 4px;
+    }
+
+    .value {
+      font-size: 20px;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #64748b;
+    }
+
+    /* Highlight colors */
+    .load { color: #38bdf8; }
+    .decision { color: #22c55e; }
+    .execution { color: #facc15; }
+    .advice { color: #e879f9; }
+    .reflection { color: #f87171; }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>COGNITEX</h1>
+    <div class="subtitle">
+      AI-Driven Cognitive Load Adaptive Learning System
+    </div>
+
+    <div class="card">
+      <div class="label">Cognitive Load</div>
+      <div class="value load" id="load">---</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Agent Decision</div>
+      <div class="value decision" id="decision">---</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Execution Status</div>
+      <div class="value execution" id="execution">---</div>
+    </div>
+
+    <div class="card">
+      <div class="label">AI Advice</div>
+      <div class="value advice" id="advice">---</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Reflection</div>
+      <div class="value reflection" id="reflection">---</div>
+    </div>
+
+    <div class="footer">
+      Interact with keyboard or mouse to see real-time adaptive changes
+    </div>
+
+  </div>
+
+  <!-- JS (UNCHANGED) -->
+  <script src="app.js"></script>
+  <script src="tracker.js"></script>
+
+</body>
+</html>
