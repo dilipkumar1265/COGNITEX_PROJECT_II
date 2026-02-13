@@ -3,7 +3,7 @@
 COGNITEX is an intelligent cognitive load–adaptive platform that monitors user behavior in real time to detect mental workload without using sensors. Using machine learning, Agentic AI, and Generative AI, it automatically adjusts task difficulty, recommends breaks, and provides personalized learning or work assistance. The system aims to reduce cognitive overload, improve engagement, and enhance productivity in both educational and professional environments.
 
 ## Introduction
-
+AI-driven learning systems are transforming education by adapting content based on learner behavior and performance.Cognitive Load Theory helps balance mental effort to improve understanding and retention during learning.Machine Learning and Generative AI enable real-time analysis and personalized learning interventions.Adaptive intelligent tutoring systems enhance engagement, reduce overload, and improve overall learning outcomes.
 ## System Design
 
 ### ENTITY-RELATIONSHIP DIAGRAM
